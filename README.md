@@ -2,7 +2,7 @@
 ![PyTorch >=1.6](https://img.shields.io/badge/Tensorflow->=1.0.1-yellow.svg)
 # AS-CAL
 
-Please visit [AS-CAL](https://github.com/LZU-SIAT/AS-CAL) to fetch the latest version of this project.
+Please visit [AS-CAL](https://github.com/LZU-SIAT/AS-CAL) to pull the latest version of this project.
 
 ## Introduction
 This is the official implementation of "Augmented Skeleton Based Contrastive Action Learning with Momentum LSTM for Unsupervised Action Recognition". (By Haocong Rao, Siqi Wang, Xiping Hu, Mingkui Tan, Huang Da, Jun Cheng, Bin Hu). In [Information Sciences 2021](https://www.sciencedirect.com/science/article/abs/pii/S0020025521003443).
