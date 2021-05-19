@@ -1,7 +1,10 @@
+![Python >=3.6](https://img.shields.io/badge/Python->=3.6-blue.svg)
+![PyTorch >=1.6](https://img.shields.io/badge/Tensorflow->=1.0.1-yellow.svg)
 # AS-CAL
 
 ## Introduction
-This is the official implementation of "Augmented Skeleton Based Contrastive Action Learning with Momentum LSTM for Unsupervised Action Recognition". 
+This is the official implementation of "Augmented Skeleton Based Contrastive Action Learning with Momentum LSTM for Unsupervised Action Recognition". (By Haocong Rao, Siqi Wang, Xiping Hu, Mingkui Tan, Huang Da, Jun Cheng, Bin Hu). In [Information Sciences 2021](https://www.sciencedirect.com/science/article/abs/pii/S0020025521003443).
+
 ## Requirements
 - Python 3.6
 - Pytorch 1.0.1
@@ -35,16 +38,22 @@ For more customized parameter settings, you can change them in `parse_option()` 
 To debug, we suggest to set `epochs` to 2 and `save_freq` to 1 in `parse_option()`.  
 Besides, we suggest to set `epochs` to 1 in `parse_option_lin_eval()`.
 
+## Citation
+If you find this code useful for your research, please cite our paper
+```bash
+@article{RAO202190,
+title = {Augmented Skeleton Based Contrastive Action Learning with Momentum LSTM for Unsupervised Action Recognition},
+journal = {Information Sciences},
+volume = {569},
+pages = {90-109},
+year = {2021},
+issn = {0020-0255},
+doi = {https://doi.org/10.1016/j.ins.2021.04.023},
+url = {https://www.sciencedirect.com/science/article/pii/S0020025521003443},
+author = {Haocong Rao and Shihao Xu and Xiping Hu and Jun Cheng and Bin Hu},
+}
+}
+```
+
 ## License
 AS-CAL is released under the MIT License.
-
-## Citation
-@misc{rao2020augmented,  
-      title={Augmented Skeleton Based Contrastive Action Learning with Momentum LSTM for Unsupervised Action Recognition},  
-      author={Haocong Rao and Shihao Xu and Xiping Hu and Jun Cheng and Bin Hu},  
-      year={2020},  
-      eprint={2008.00188},  
-      archivePrefix={arXiv},  
-      primaryClass={cs.CV}  
-      }
-
